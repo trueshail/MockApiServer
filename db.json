@@ -1,13 +1,13 @@
 {
   "school":[
      {
-        "schoolid":"2",
+        "id":"2",
         "schoolname":"FusionGo Dev",
         "modified":"2020-03-26 21:32:13",
         "created":"2020-03-26 21:32:13"
      },
      {
-      "schoolid":"3",
+      "id":"3",
       "schoolname":"FusionGo QA",
       "modified":"2020-03-26 21:32:13",
       "created":"2020-03-26 21:32:13"
