@@ -7,16 +7,43 @@
         "created":"2020-03-26 21:32:13"
      },
      {
-      "id":"3",
-      "schoolname":"FusionGo QA",
-      "modified":"2020-03-26 21:32:13",
-      "created":"2020-03-26 21:32:13"
-   }
+        "id":"3",
+        "schoolname":"FusionGo QA",
+        "modified":"2020-03-26 21:32:13",
+        "created":"2020-03-26 21:32:13"
+     }
   ],
-  "devices":[
+  "basewidget":[
      {
-        "schoolId":"2",
         "id":"1",
+        "labelName":"Occupancy",
+        "supportedSizes": [ "Small", "Medium" ]        
+     },
+     {
+        "id":"2",
+        "labelName":"Schedule",
+        "supportedSizes": [ "Small", "Medium" ]
+     },
+     {
+        "id":"3",
+        "labelName":"Image",
+        "supportedSizes": [ "Small", "Medium", "Large" ]
+     },
+     {
+        "id":"4",
+        "labelName":"Video",
+        "supportedSizes": ["Medium", "Large" ]
+     },
+     {
+        "id":"5",
+        "labelName":"Program Marketting",
+        "supportedSizes": [ "Small", "Medium", "Large" ]
+     }
+  ],
+  "device":[
+     {
+        "id":"1",
+        "schoolId":"2",
         "device_id":"1054514",
         "device_name":"Main Display",
         "zone":"General",
@@ -26,9 +53,8 @@
         "created":"2020-03-26 21:32:13"
      },
      {
-
-        "schoolId":"2",
         "id":"2",
+        "schoolId":"2",
         "device_id":"1054515",
         "device_name":"LG Large TV",
         "zone":"General",
@@ -79,9 +105,10 @@
         "loopDuration":"8 minutes",
         "modified":"1 min ago",
         "status":"Active",
-        "pages":[
+        "page":[
            {
               "id":"1",
+              "playlistId":"1",
               "pagename":"Page 1",
               "modified":"2020-03-26 21:32:13",
               "created":"2020-03-26 21:32:13",
@@ -89,69 +116,79 @@
               "PageWidget":[
                  {
                     "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
+                    "pageId":"1",
+                    "basewidgetId":"1",
+                    "size":[1,0,0] 
                  },
                  {
                     "id":"2",
-                    "name":"facilty occupancy",
-                    "size":"medium"
+                    "pageId":"1",
+                    "basewidgetId":"1",
+                    "size":[0,1,1]
                  }
               ]
            },
            {
               "id":"2",
+              "playlistId":"1",
               "pagename":"Page 2",
               "modified":"2020-03-26 21:32:13",
               "created":"2020-03-26 21:32:13",
               "duration":20,
               "PageWidget":[
                  {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
+                    "id":"3",
+                    "pageId":"2",
+                    "basewidgetId":"1",
+                    "size":[1,1,1] 
                  }
               ]
            },
            {
               "id":"3",
+              "playlistId":"1",
               "pagename":"Page 3",
               "modified":"2020-03-26 21:32:13",
               "created":"2020-03-26 21:32:13",
               "duration":35,
               "PageWidget":[
                  {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
+                    "id":"4",
+                    "pageId":"3",
+                    "basewidgetId":"1",
+                    "size":[0,1,0] 
                  }
               ]
            },
            {
               "id":"4",
+              "playlistId":"1",
               "pagename":"Page 4",
               "modified":"2020-03-26 21:32:13",
               "created":"2020-03-26 21:32:13",
               "duration":3600,
               "PageWidget":[
                  {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
+                    "id":"5",
+                    "pageId":"4",
+                    "basewidgetId":"1",
+                    "size":[1,0,0] 
                  }
               ]
            },
            {
               "id":"5",
+              "playlistId":"1",
               "pagename":"Page 5",
               "modified":"2020-03-26 21:32:13",
               "created":"2020-03-26 21:32:13",
               "duration":45,
               "PageWidget":[
                  {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
+                    "id":"6",
+                    "pageId":"5",
+                    "basewidgetId":"1",
+                    "size":[1,1,0] 
                  }
               ]
            }
@@ -164,51 +201,58 @@
         "loopDuration":"3 minutes",
         "modified":"1 hr ago",
         "status":"Draft",
-        "pages":[
+        "page":[
            {
-              "id":"1",
+              "id":"6",
+              "playlistId":"2",
               "pagename":"Page 1",
               "modified":"2020-03-26 21:32:13",
               "created":"2020-03-26 21:32:13",
               "duration":178,
               "PageWidget":[
                  {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
+                    "id":"7",
+                    "pageId":"6",
+                    "basewidgetId":"1",
+                    "size":[1,0,0]
                  },
                  {
-                    "id":"2",
-                    "name":"facilty occupancy",
-                    "size":"medium"
+                    "id":"8",
+                    "pageId":"6",
+                    "basewidgetId":"1",
+                    "size":[0,1,1]
                  }
               ]
            },
            {
-              "id":"2",
+              "id":"7",
+              "playlistId":"2",
               "pagename":"Page 2",
               "modified":"2020-03-26 21:32:13",
               "created":"2020-03-26 21:32:13",
               "duration":7200,
               "PageWidget":[
                  {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
+                    "id":"9",
+                    "pageId":"7",
+                    "basewidgetId":"1",
+                    "size":[1,1,1] 
                  }
               ]
            },
            {
-              "id":"3",
+              "id":"8",
+              "playlistId":"2",
               "pagename":"Page 3",
               "modified":"2020-03-26 21:32:13",
               "created":"2020-03-26 21:32:13",
               "duration":3650,
               "PageWidget":[
                  {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
+                    "id":"10",
+                    "pageId":"8",
+                    "basewidgetId":"1",
+                    "size":[1,1,1]
                  }
               ]
            }
@@ -221,181 +265,33 @@
         "loopDuration":"10 minutes",
         "modified":"10/18/2020",
         "status":"Active",
-        "pages":[
+        "page":[
            {
-              "id":"1",
+              "id":"9",
+              "playlistId":"3",
               "pagename":"Page 1",
               "modified":"2020-03-26 21:32:13",
               "created":"2020-03-26 21:32:13",
               "duration":50,
               "PageWidget":[
                  {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
+                    "id":"11",
+                    "pageId":"9",
+                    "basewidgetId":"1",
+                    "size":[1,0,0]
                  },
                  {
-                    "id":"2",
-                    "name":"facilty occupancy",
-                    "size":"medium"
-                 }
-              ]
-           }
-        ]
-     },
-     {
-        "id":4,
-        "schoolId":"2",
-        "playlistName":"Halloween 2020",
-        "loopDuration":"7 minutes",
-        "modified":"10/15/2020",
-        "status":"InActive",
-        "pages":[
-           {
-              "id":"1",
-              "pagename":"Page 1",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":360,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
+                    "id":"12",
+                    "pageId":"9",
+                    "basewidgetId":"1",
+                    "size":[0,1,0]
                  },
                  {
-                    "id":"2",
-                    "name":"facilty occupancy",
-                    "size":"medium"
-                 }
-              ]
-           },
-           {
-              "id":"2",
-              "pagename":"Page 2",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":486,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
-              ]
-           },
-           {
-              "id":"3",
-              "pagename":"Page 3",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":780,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
-              ]
-           },
-           {
-              "id":"4",
-              "pagename":"Page 4",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":25,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
-              ]
-           }
-        ]
-     },
-     {
-        "id":5,
-        "schoolId":"2",
-        "playlistName":"Upcoming Programs",
-        "loopDuration":"8 minutes",
-        "modified":"10/15/2020",
-        "status":"Draft",
-        "pages":[
-           {
-              "id":"1",
-              "pagename":"Page1",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":890,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 },
-                 {
-                    "id":"2",
-                    "name":"facilty occupancy",
-                    "size":"medium"
-                 }
-              ]
-           },
-           {
-              "id":"2",
-              "pagename":"Page2",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":4800,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
-              ]
-           }
-        ]
-     },
-     {
-        "id":6,
-        "schoolId":"2",
-        "playlistName":"Christmas 2020",
-        "loopDuration":"11 minutes",
-        "modified":"12/20/2019",
-        "status":"Draft",
-        "pages":[
-           {
-              "id":"1",
-              "pagename":"Page1",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":10,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 },
-                 {
-                    "id":"2",
-                    "name":"facilty occupancy",
-                    "size":"medium"
-                 }
-              ]
-           },
-           {
-              "id":"2",
-              "pagename":"Page2",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":20,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
+                    "id":"13",
+                    "pageId":"9",
+                    "basewidgetId":"1",
+                    "size":[0,0,1]
+                  }
               ]
            }
         ]
