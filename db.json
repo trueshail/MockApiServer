@@ -149,7 +149,7 @@
         "modified":"2020-03-26 21:32:13",
         "created":"2020-03-26 21:32:13",
         "duration":90,
-        "PageWidget":[
+        "pagewidget":[
            {
               "id":"1",
               "pageId":"1",
@@ -180,7 +180,7 @@
         "modified":"2020-03-26 21:32:13",
         "created":"2020-03-26 21:32:13",
         "duration":20,
-        "PageWidget":[
+        "pagewidget":[
            {
               "id":"3",
               "pageId":"2",
@@ -201,7 +201,7 @@
         "modified":"2020-03-26 21:32:13",
         "created":"2020-03-26 21:32:13",
         "duration":35,
-        "PageWidget":[
+        "pagewidget":[
            {
               "id":"4",
               "pageId":"3",
@@ -221,7 +221,7 @@
         "modified":"2020-03-26 21:32:13",
         "created":"2020-03-26 21:32:13",
         "duration":3600,
-        "PageWidget":[
+        "pagewidget":[
            {
               "id":"5",
               "pageId":"4",
@@ -242,7 +242,7 @@
         "modified":"2020-03-26 21:32:13",
         "created":"2020-03-26 21:32:13",
         "duration":45,
-        "PageWidget":[
+        "pagewidget":[
            {
               "id":"6",
               "pageId":"5",
@@ -263,7 +263,7 @@
         "modified":"2020-03-26 21:32:13",
         "created":"2020-03-26 21:32:13",
         "duration":178,
-        "PageWidget":[
+        "pagewidget":[
            {
               "id":"7",
               "pageId":"6",
@@ -294,7 +294,7 @@
         "modified":"2020-03-26 21:32:13",
         "created":"2020-03-26 21:32:13",
         "duration":7200,
-        "PageWidget":[
+        "pagewidget":[
            {
               "id":"9",
               "pageId":"7",
@@ -315,7 +315,7 @@
         "modified":"2020-03-26 21:32:13",
         "created":"2020-03-26 21:32:13",
         "duration":3650,
-        "PageWidget":[
+        "pagewidget":[
            {
               "id":"10",
               "pageId":"8",
@@ -336,7 +336,7 @@
         "modified":"2020-03-26 21:32:13",
         "created":"2020-03-26 21:32:13",
         "duration":50,
-        "PageWidget":[
+        "pagewidget":[
            {
               "id":"11",
               "pageId":"9",
@@ -368,6 +368,28 @@
               ]
            }
         ]
+     }
+  ],
+  "imageWidget":[
+     {
+        "id":"1",
+        "pagewidgetId":"1",
+        "url":"https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+     },
+     {
+        "id":"2",
+        "pagewidgetId":"2",
+        "url":"https://images.unsplash.com/photo-1441794016917-7b6933969960?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80"
+     },
+     {
+        "id":"3",
+        "pagewidgetId":"3",
+        "url":"https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+     },
+     {
+        "id":"4",
+        "pagewidgetId":"4",
+        "url":"https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
      }
   ]
 }
