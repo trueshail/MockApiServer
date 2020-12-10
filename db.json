@@ -192,29 +192,7 @@
         "pagename":"Page 1",
         "modified":"2020-03-26 21:32:13",
         "created":"2020-03-26 21:32:13",
-        "duration":178,
-        "pagewidget":[
-           {
-              "id":"7",
-              "pageId":"6",
-              "basewidgetId":"1",
-              "size":[
-                 1,
-                 0,
-                 0
-              ]
-           },
-           {
-              "id":"8",
-              "pageId":"6",
-              "basewidgetId":"1",
-              "size":[
-                 0,
-                 1,
-                 1
-              ]
-           }
-        ]
+        "duration":178
      },
      {
         "id":"7",
@@ -303,6 +281,26 @@
            1,
            1,
            0
+        ]
+     },
+     {
+        "id":"7",
+        "pageId":"6",
+        "basewidgetId":"1",
+        "size":[
+           1,
+           0,
+           0
+        ]
+     },
+     {
+        "id":"8",
+        "pageId":"6",
+        "basewidgetId":"1",
+        "size":[
+           0,
+           1,
+           1
         ]
      },
      {
