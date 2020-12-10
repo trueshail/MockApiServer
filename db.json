@@ -1,378 +1,397 @@
 {
-  "playlist":[
+  "school":[
      {
-        "id":1,
-        "playlistName":"Today's Schedule",
-        "loopDuration":"8 minutes",
-        "modified":"1 min ago",
-        "status":"Active",
-        "pages":[
+        "schoolid":"2",
+        "schoolname":"FusionGo Dev",
+        "modified":"2020-03-26 21:32:13",
+        "created":"2020-03-26 21:32:13",
+        "playlist":[
            {
-              "id":"1",
-              "pagename":"Page 1",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":90,
-              "PageWidget":[
+              "id":1,
+              "schoolid":"2",
+              "playlistName":"Today's Schedule",
+              "loopDuration":"8 minutes",
+              "modified":"1 min ago",
+              "status":"Active",
+              "pages":[
                  {
                     "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
+                    "pagename":"Page 1",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":90,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       },
+                       {
+                          "id":"2",
+                          "name":"facilty occupancy",
+                          "size":"medium"
+                       }
+                    ]
                  },
                  {
                     "id":"2",
-                    "name":"facilty occupancy",
-                    "size":"medium"
+                    "pagename":"Page 2",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":20,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       }
+                    ]
+                 },
+                 {
+                    "id":"3",
+                    "pagename":"Page 3",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":35,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       }
+                    ]
+                 },
+                 {
+                    "id":"4",
+                    "pagename":"Page 4",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":3600,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       }
+                    ]
+                 },
+                 {
+                    "id":"5",
+                    "pagename":"Page 5",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":45,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       }
+                    ]
                  }
               ]
+           },
+           {
+              "id":2,
+              "schoolid":"2",
+              "playlistName":"Welcome To OUM",
+              "loopDuration":"3 minutes",
+              "modified":"1 hr ago",
+              "status":"Draft",
+              "pages":[
+                 {
+                    "id":"1",
+                    "pagename":"Page 1",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":178,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       },
+                       {
+                          "id":"2",
+                          "name":"facilty occupancy",
+                          "size":"medium"
+                       }
+                    ]
+                 },
+                 {
+                    "id":"2",
+                    "pagename":"Page 2",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":7200,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       }
+                    ]
+                 },
+                 {
+                    "id":"3",
+                    "pagename":"Page 3",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":3650,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       }
+                    ]
+                 }
+              ]
+           },
+           {
+              "id":3,
+              "schoolid":"2",
+              "playlistName":"Fall Kickoff",
+              "loopDuration":"10 minutes",
+              "modified":"10/18/2020",
+              "status":"Active",
+              "pages":[
+                 {
+                    "id":"1",
+                    "pagename":"Page 1",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":50,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       },
+                       {
+                          "id":"2",
+                          "name":"facilty occupancy",
+                          "size":"medium"
+                       }
+                    ]
+                 }
+              ]
+           },
+           {
+              "id":4,
+              "schoolid":"2",
+              "playlistName":"Halloween 2020",
+              "loopDuration":"7 minutes",
+              "modified":"10/15/2020",
+              "status":"InActive",
+              "pages":[
+                 {
+                    "id":"1",
+                    "pagename":"Page 1",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":360,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       },
+                       {
+                          "id":"2",
+                          "name":"facilty occupancy",
+                          "size":"medium"
+                       }
+                    ]
+                 },
+                 {
+                    "id":"2",
+                    "pagename":"Page 2",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":486,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       }
+                    ]
+                 },
+                 {
+                    "id":"3",
+                    "pagename":"Page 3",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":780,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       }
+                    ]
+                 },
+                 {
+                    "id":"4",
+                    "pagename":"Page 4",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":25,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       }
+                    ]
+                 }
+              ]
+           },
+           {
+              "id":5,
+              "schoolid":"2",
+              "playlistName":"Upcoming Programs",
+              "loopDuration":"8 minutes",
+              "modified":"10/15/2020",
+              "status":"Draft",
+              "pages":[
+                 {
+                    "id":"1",
+                    "pagename":"Page1",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":890,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       },
+                       {
+                          "id":"2",
+                          "name":"facilty occupancy",
+                          "size":"medium"
+                       }
+                    ]
+                 },
+                 {
+                    "id":"2",
+                    "pagename":"Page2",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":4800,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       }
+                    ]
+                 }
+              ]
+           },
+           {
+              "id":6,
+              "schoolid":"2",
+              "playlistName":"Christmas 2020",
+              "loopDuration":"11 minutes",
+              "modified":"12/20/2019",
+              "status":"Draft",
+              "pages":[
+                 {
+                    "id":"1",
+                    "pagename":"Page1",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":10,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       },
+                       {
+                          "id":"2",
+                          "name":"facilty occupancy",
+                          "size":"medium"
+                       }
+                    ]
+                 },
+                 {
+                    "id":"2",
+                    "pagename":"Page2",
+                    "modified":"2020-03-26 21:32:13",
+                    "created":"2020-03-26 21:32:13",
+                    "duration":20,
+                    "PageWidget":[
+                       {
+                          "id":"1",
+                          "name":"facilty occupancy",
+                          "size":"small"
+                       }
+                    ]
+                 }
+              ]
+           }
+        ],
+        "devices":[
+           {
+              "id":"1",
+              "schoolid":"2",
+              "device_id":"1054514",
+              "device_name":"Main Display",
+              "zone":"General",
+              "is_portrait":false,
+              "is_connected":true,
+              "modified":"2020-03-26 21:32:13",
+              "created":"2020-03-26 21:32:13"
            },
            {
               "id":"2",
-              "pagename":"Page 2",
+              "schoolid":"2",
+              "device_id":"1054515",
+              "device_name":"LG Large TV",
+              "zone":"General",
+              "is_portrait":false,
+              "is_connected":true,
               "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":20,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
-              ]
+              "created":"2020-03-26 21:32:13"
            },
            {
               "id":"3",
-              "pagename":"Page 3",
+              "schoolid":"2",
+              "device_id":"1054516",
+              "device_name":"Hallway Display",
+              "zone":"General",
+              "is_portrait":true,
+              "is_connected":false,
               "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":35,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
-              ]
+              "created":"2020-03-26 21:32:13"
            },
            {
               "id":"4",
-              "pagename":"Page 4",
+              "schoolid":"2",
+              "device_id":"1054517",
+              "device_name":"Small Wall TV",
+              "zone":"General",
+              "is_portrait":false,
+              "is_connected":true,
               "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":3600,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
-              ]
+              "created":"2020-03-26 21:32:13"
            },
            {
               "id":"5",
-              "pagename":"Page 5",
+              "schoolid":"2",
+              "device_id":"1054518",
+              "device_name":"Small Desk Display",
+              "zone":"General",
+              "is_portrait":true,
+              "is_connected":true,
               "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":45,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
-              ]
+              "created":"2020-03-26 21:32:13"
            }
         ]
-     },
-     {
-        "id":2,
-        "playlistName":"Welcome To OUM",
-        "loopDuration":"3 minutes",
-        "modified":"1 hr ago",
-        "status":"Draft",
-        "pages":[
-           {
-              "id":"1",
-              "pagename":"Page 1",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":178,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 },
-                 {
-                    "id":"2",
-                    "name":"facilty occupancy",
-                    "size":"medium"
-                 }
-              ]
-           },
-           {
-              "id":"2",
-              "pagename":"Page 2",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":7200,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
-              ]
-           },
-           {
-              "id":"3",
-              "pagename":"Page 3",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":3650,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
-              ]
-           }
-        ]
-     },
-     {
-        "id":3,
-        "playlistName":"Fall Kickoff",
-        "loopDuration":"10 minutes",
-        "modified":"10/18/2020",
-        "status":"Active",
-        "pages":[
-           {
-              "id":"1",
-              "pagename":"Page 1",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":50,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 },
-                 {
-                    "id":"2",
-                    "name":"facilty occupancy",
-                    "size":"medium"
-                 }
-              ]
-           }
-        ]
-     },
-     {
-        "id":4,
-        "playlistName":"Halloween 2020",
-        "loopDuration":"7 minutes",
-        "modified":"10/15/2020",
-        "status":"InActive",
-        "pages":[
-           {
-              "id":"1",
-              "pagename":"Page 1",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":360,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 },
-                 {
-                    "id":"2",
-                    "name":"facilty occupancy",
-                    "size":"medium"
-                 }
-              ]
-           },
-           {
-              "id":"2",
-              "pagename":"Page 2",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":486,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
-              ]
-           },
-           {
-              "id":"3",
-              "pagename":"Page 3",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":780,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
-              ]
-           },
-           {
-              "id":"4",
-              "pagename":"Page 4",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":25,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
-              ]
-           }
-        ]
-     },
-     {
-        "id":5,
-        "playlistName":"Upcoming Programs",
-        "loopDuration":"8 minutes",
-        "modified":"10/15/2020",
-        "status":"Draft",
-        "pages":[
-           {
-              "id":"1",
-              "pagename":"Page1",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":890,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 },
-                 {
-                    "id":"2",
-                    "name":"facilty occupancy",
-                    "size":"medium"
-                 }
-              ]
-           },
-           {
-              "id":"2",
-              "pagename":"Page2",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":4800,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
-              ]
-           }
-        ]
-     },
-     {
-        "id":6,
-        "playlistName":"Christmas 2020",
-        "loopDuration":"11 minutes",
-        "modified":"12/20/2019",
-        "status":"Draft",
-        "pages":[
-           {
-              "id":"1",
-              "pagename":"Page1",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":10,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 },
-                 {
-                    "id":"2",
-                    "name":"facilty occupancy",
-                    "size":"medium"
-                 }
-              ]
-           },
-           {
-              "id":"2",
-              "pagename":"Page2",
-              "modified":"2020-03-26 21:32:13",
-              "created":"2020-03-26 21:32:13",
-              "duration":20,
-              "PageWidget":[
-                 {
-                    "id":"1",
-                    "name":"facilty occupancy",
-                    "size":"small"
-                 }
-              ]
-           }
-        ]
-     }
-  ],
-  "devices":[
-     {
-        "id":"1",
-        "device_id":"1054514",
-        "device_name":"Main Display",
-        "zone":"General",
-        "is_portrait":false,
-        "is_connected":true,
-        "modified":"2020-03-26 21:32:13",
-        "created":"2020-03-26 21:32:13"
-     },
-     {
-        "id":"2",
-        "device_id":"1054515",
-        "device_name":"LG Large TV",
-        "zone":"General",
-        "is_portrait":false,
-        "is_connected":true,
-        "modified":"2020-03-26 21:32:13",
-        "created":"2020-03-26 21:32:13"
-     },
-     {
-        "id":"3",
-        "device_id":"1054516",
-        "device_name":"Hallway Display",
-        "zone":"General",
-        "is_portrait":true,
-        "is_connected":false,
-        "modified":"2020-03-26 21:32:13",
-        "created":"2020-03-26 21:32:13"
-     },
-     {
-        "id":"4",
-        "device_id":"1054517",
-        "device_name":"Small Wall TV",
-        "zone":"General",
-        "is_portrait":false,
-        "is_connected":true,
-        "modified":"2020-03-26 21:32:13",
-        "created":"2020-03-26 21:32:13"
-     },
-     {
-        "id":"5",
-        "device_id":"1054518",
-        "device_name":"Small Desk Display",
-        "zone":"General",
-        "is_portrait":true,
-        "is_connected":true,
-        "modified":"2020-03-26 21:32:13",
-        "created":"2020-03-26 21:32:13"
      }
   ]
 }
