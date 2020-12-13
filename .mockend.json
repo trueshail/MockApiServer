@@ -1,9 +1,13 @@
 {
-    "device": {
-      "id": "int",
-      "device_id": "int",
-      "device_name": "string",
-      "is_portrait": "boolean",
-      "createdAt": "date"
+    "Device": {
+      "title": "string",
+      "views": "int",
+      "published": "boolean",
+      "createdAt": "date",
+      "comments": "Comment[]"
+    },
+    "Comment": {
+      "body": "string",
+      "post": "Device"
     }
   }
