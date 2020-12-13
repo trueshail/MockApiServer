@@ -1,0 +1,379 @@
+{
+    "school":[
+       {
+          "id":"2",
+          "schoolname":"FusionGo Dev",
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13"
+       },
+       {
+          "id":"3",
+          "schoolname":"FusionGo QA",
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13"
+       }
+    ],
+    "basewidget":[
+       {
+          "id":"1",
+          "labelName":"Occupancy",
+          "supportedSizes":[
+             "Small",
+             "Medium"
+          ]
+       },
+       {
+          "id":"2",
+          "labelName":"Schedule",
+          "supportedSizes":[
+             "Small",
+             "Medium"
+          ]
+       },
+       {
+          "id":"3",
+          "labelName":"Image",
+          "supportedSizes":[
+             "Small",
+             "Medium",
+             "Large"
+          ]
+       },
+       {
+          "id":"4",
+          "labelName":"Video",
+          "supportedSizes":[
+             "Medium",
+             "Large"
+          ]
+       },
+       {
+          "id":"5",
+          "labelName":"Program Marketting",
+          "supportedSizes":[
+             "Small",
+             "Medium",
+             "Large"
+          ]
+       }
+    ],
+    "device":[
+       {
+          "id":"1",
+          "schoolId":"2",
+          "device_id":"1054514",
+          "device_name":"Main Display",
+          "zone":"General",
+          "is_portrait":false,
+          "is_connected":true,
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13"
+       },
+       {
+          "id":"2",
+          "schoolId":"2",
+          "device_id":"1054515",
+          "device_name":"LG Large TV",
+          "zone":"General",
+          "is_portrait":false,
+          "is_connected":true,
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13"
+       },
+       {
+          "id":"3",
+          "schoolId":"2",
+          "device_id":"1054516",
+          "device_name":"Hallway Display",
+          "zone":"General",
+          "is_portrait":true,
+          "is_connected":false,
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13"
+       },
+       {
+          "id":"4",
+          "schoolId":"3",
+          "device_id":"1054517",
+          "device_name":"Small Wall TV",
+          "zone":"General",
+          "is_portrait":false,
+          "is_connected":true,
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13"
+       },
+       {
+          "id":"5",
+          "schoolId":"3",
+          "device_id":"1054518",
+          "device_name":"Small Desk Display",
+          "zone":"General",
+          "is_portrait":true,
+          "is_connected":true,
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13"
+       }
+    ],
+    "playlist":[
+       {
+          "id":"1",
+          "schoolId":"2",
+          "playlistName":"Today's Schedule",
+          "loopDuration":"8 minutes",
+          "modified":"1 min ago",
+          "status":"Active"
+       },
+       {
+          "id":"2",
+          "schoolId":"2",
+          "playlistName":"Welcome To OUM",
+          "loopDuration":"3 minutes",
+          "modified":"1 hr ago",
+          "status":"Draft"
+       },
+       {
+          "id":"3",
+          "schoolId":"3",
+          "playlistName":"Fall Kickoff",
+          "loopDuration":"10 minutes",
+          "modified":"10/18/2020",
+          "status":"Active"
+       }
+    ],
+    "page":[
+       {
+          "id":"1",
+          "schoolId":"2",
+          "playlistId":"1",
+          "pagename":"Page 1",
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13",
+          "duration":90
+       },
+       {
+          "id":"2",
+          "schoolId":"2",
+          "playlistId":"1",
+          "pagename":"Page 2",
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13",
+          "duration":20
+       },
+       {
+          "id":"3",
+          "schoolId":"2",
+          "playlistId":"1",
+          "pagename":"Page 3",
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13",
+          "duration":35
+       },
+       {
+          "id":"4",
+          "playlistId":"1",
+          "pagename":"Page 4",
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13",
+          "duration":3600
+       },
+       {
+          "id":"5",
+          "schoolId":"2",
+          "playlistId":"1",
+          "pagename":"Page 5",
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13",
+          "duration":45
+       },
+       {
+          "id":"6",
+          "schoolId":"2",
+          "playlistId":"2",
+          "pagename":"Page 1",
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13",
+          "duration":178
+       },
+       {
+          "id":"7",
+          "schoolId":"2",
+          "playlistId":"2",
+          "pagename":"Page 2",
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13",
+          "duration":7200
+       },
+       {
+          "id":"8",
+          "schoolId":"2",
+          "playlistId":"2",
+          "pagename":"Page 3",
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13",
+          "duration":3650
+       },
+       {
+          "id":"9",
+          "schoolId":"3",
+          "playlistId":"3",
+          "pagename":"Page 1",
+          "modified":"2020-03-26 21:32:13",
+          "created":"2020-03-26 21:32:13",
+          "duration":50
+       }
+    ],
+    "pagewidget":[
+       {
+          "id":"1",
+          "pageId":"1",
+          "basewidgetId":"1",
+          "size":[
+             1,
+             0,
+             0
+          ]
+       },
+       {
+          "id":"2",
+          "pageId":"1",
+          "basewidgetId":"1",
+          "size":[
+             0,
+             1,
+             1
+          ]
+       },
+       {
+          "id":"3",
+          "pageId":"2",
+          "basewidgetId":"1",
+          "size":[
+             1,
+             1,
+             1
+          ]
+       },
+       {
+          "id":"4",
+          "pageId":"3",
+          "basewidgetId":"1",
+          "size":[
+             0,
+             1,
+             0
+          ]
+       },
+       {
+          "id":"5",
+          "pageId":"4",
+          "basewidgetId":"1",
+          "size":[
+             1,
+             0,
+             0
+          ]
+       },
+       {
+          "id":"6",
+          "pageId":"5",
+          "basewidgetId":"1",
+          "size":[
+             1,
+             1,
+             0
+          ]
+       },
+       {
+          "id":"7",
+          "pageId":"6",
+          "basewidgetId":"1",
+          "size":[
+             1,
+             0,
+             0
+          ]
+       },
+       {
+          "id":"8",
+          "pageId":"6",
+          "basewidgetId":"1",
+          "size":[
+             0,
+             1,
+             1
+          ]
+       },
+       {
+          "id":"9",
+          "pageId":"7",
+          "basewidgetId":"1",
+          "size":[
+             1,
+             1,
+             1
+          ]
+       },
+       {
+          "id":"10",
+          "pageId":"8",
+          "basewidgetId":"1",
+          "size":[
+             1,
+             1,
+             1
+          ]
+       },
+       {
+          "id":"11",
+          "pageId":"9",
+          "basewidgetId":"1",
+          "size":[
+             1,
+             0,
+             0
+          ]
+       },
+       {
+          "id":"12",
+          "pageId":"9",
+          "basewidgetId":"1",
+          "size":[
+             0,
+             1,
+             0
+          ]
+       },
+       {
+          "id":"13",
+          "pageId":"9",
+          "basewidgetId":"1",
+          "size":[
+             0,
+             0,
+             1
+          ]
+       }
+    ],
+    "imageWidget":[
+       {
+          "id":"1",
+          "pagewidgetId":"1",
+          "url":"https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+       },
+       {
+          "id":"2",
+          "pagewidgetId":"2",
+          "url":"https://images.unsplash.com/photo-1441794016917-7b6933969960?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80"
+       },
+       {
+          "id":"3",
+          "pagewidgetId":"3",
+          "url":"https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+       },
+       {
+          "id":"4",
+          "pagewidgetId":"4",
+          "url":"https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+       }
+    ]
+  }
